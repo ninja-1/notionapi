@@ -52,7 +52,8 @@ type Converter struct {
 	Indent string
 	ListNo int
 
-	bufs []*bytes.Buffer
+	bufs      []*bytes.Buffer
+	URLPrefix string
 }
 
 // NewConverter returns customizable Markdown renderer
@@ -622,7 +623,7 @@ func (c *Converter) RenderImage(block *notionapi.Block) {
 		fileName = parts[0]
 		ext = "." + parts[1]
 	}
-	c.Printf("![](%s-%s%s)\n", fileName, fileID, ext)
+	c.Printf("![](%s%s-%s%s)\n", c.URLPrefix, fileName, fileID, ext)
 	c.renderCaption(block)
 }
 
