@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/kjk/notionapi"
-	"github.com/kjk/notionapi/tohtml"
 	"github.com/kjk/u"
+	"github.com/ninja-1/notionapi"
+	"github.com/ninja-1/notionapi/tohtml"
 )
 
 func htmlPath(pageID string, n int) string {

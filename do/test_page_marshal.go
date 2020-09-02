@@ -4,10 +4,10 @@ import (
 	"bytes"
 
 	"github.com/kjk/caching_http_client"
-	"github.com/kjk/notionapi"
-	"github.com/kjk/notionapi/tohtml"
-	"github.com/kjk/notionapi/tomarkdown"
 	"github.com/kjk/u"
+	"github.com/ninja-1/notionapi"
+	"github.com/ninja-1/notionapi/tohtml"
+	"github.com/ninja-1/notionapi/tomarkdown"
 )
 
 func pageToHTML(page *notionapi.Page) []byte {

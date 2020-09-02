@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kjk/notionapi"
 	"github.com/kjk/u"
+	"github.com/ninja-1/notionapi"
 )
 
 var (

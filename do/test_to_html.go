@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/kjk/fmthtml"
-	"github.com/kjk/notionapi"
-	"github.com/kjk/notionapi/tohtml"
 	"github.com/kjk/u"
+	"github.com/ninja-1/notionapi"
+	"github.com/ninja-1/notionapi/tohtml"
 )
 
 // detect location of https://winmerge.org/

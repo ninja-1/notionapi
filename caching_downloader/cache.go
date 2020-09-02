@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/kjk/notionapi"
+	"github.com/ninja-1/notionapi"
 )
 
 // Cache describes a caching interface

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kjk/notionapi/tohtml"
+	"github.com/ninja-1/notionapi/tohtml"
 
-	"github.com/kjk/notionapi/tomarkdown"
+	"github.com/ninja-1/notionapi/tomarkdown"
 )
 
 const (

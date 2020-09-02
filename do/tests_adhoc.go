@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kjk/notionapi"
+	"github.com/ninja-1/notionapi"
 )
 
 func assert(ok bool, format string, args ...interface{}) {

@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kjk/notionapi/caching_downloader"
+	"github.com/ninja-1/notionapi/caching_downloader"
 
-	"github.com/kjk/notionapi"
+	"github.com/ninja-1/notionapi"
 )
 
 var (
